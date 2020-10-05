@@ -61,8 +61,8 @@ class _MyHomePageState extends State<MyHomePage> {
                   border: OutlineInputBorder(),
                   hintText: 'Introduce texto para reproducir en voz',
                 ),
-                onChanged: (TextField_text) {
-                  text = TextField_text;
+                onChanged: (textFieldText) {
+                  text = textFieldText;
                 },
               ),
             ),
