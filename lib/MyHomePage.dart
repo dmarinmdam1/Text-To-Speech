@@ -30,7 +30,7 @@ class _MyHomePageState extends State<MyHomePage> {
   _playVoice() {
     _voiceController.init().then((_) {
       if (text != '') {
-        _voiceController.setLanguage("es-ES");
+        _voiceController.setLanguage(1);
         _voiceController.speak(
           text,
           VoiceControllerOptions(),
